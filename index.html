@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="surveyform.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">MCR Tour Survey</h1>
+      <p id="description">2021 World Tour Survey</p>
+    </header>
+    <div id="body">
+    <form id="survey-form">
+    <label id="name-label" for="name">
+        <p>Name:</p>
+    </label>
+    <input id="name" type="text" placeholder="Name" required>
+<label id="email-label" for="email">
+    <p>Email:</p>
+</label>
+        <input id="email" type="email" placeholder="Email" required>
+    <Label id="number-label" for="number">
+        <p>Age:</p>
+    </Label>
+        <input id="number" type="number" placeholder="Enter Your Age" min="18" max="60" required>
+        <p>Wich City You'll Choose to End Our Tour:</p>
+        <select id="dropdown">
+<option value="default">New York</option>
+<option value="Paris">Paris</option>
+<option value="Bahama">Bahama</option>
+<option value="Ibiza">Ibiza</option>
+<option value="Rome">Rome</option>
+<option value="Berlin">Berlin</option>
+<option value="Jakarta">Jakarta</option>
+<option value="Baghdad">Baghdad</option>
+<option value="Teheran">Teheran</option>
+<option value="Praha">Praha</option>
+        </select>
+<p>Wich City Do You Like The Most Acording to Our Last Tour ?</p>
+<input type="radio" name="City" value="1">New Jersey</input>
+<br>
+<input type="radio" name="City" value="2">New York</input>
+<br>
+<input type="radio" name="City" value="3">Oklahoma</input>
+<br>
+<input type="radio" name="City" value="4">Jo Mama</input>
+<br>
+<input type="radio" name="City" value="5">Kuvukiland</input>
+<br>
+<p>Wich Album Do You Like The Most ?</p>
+<input type="checkbox" name="Album" value="1" >I Brought You My Bullets, You Brought Me Your Love</input>
+<br>
+<input type="checkbox" name="Album" value="2" >Three Cheers for Sweet Revenge</input>
+<br>
+<input type="checkbox" name="Album" value="3" >Life on the Murder Scene</input>
+<br>
+<input type="checkbox" name="Album" value="4" >The Black Parade</input>
+<br>
+<input type="checkbox" name="Album" value="5" >The Black Parade Is Dead!</input>
+<br>
+<input type="checkbox" name="Album" value="6" >	Danger Days: The True Lives of the Fabulous Killjoys</input>
+<br>
+<textarea id="comment" cols="40" rows="4"> Add Your Comment Here </textarea>
+<br>
+<input type="submit" id="submit" value="submit"></input>
+      
+    </form>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </script>
+  </body>
+</html>
